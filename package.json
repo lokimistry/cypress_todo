@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cypress": "^13.13.1"
+  },
+  "name": "cypress_todo",
+  "version": "1.0.0",
+  "description": "My first cypress test",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yogesh Mistry",
+  "license": "ISC"
+}
