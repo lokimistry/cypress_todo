@@ -13,4 +13,14 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
+      - uses: actions/upload-artifacts@v3
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+      - uses: actions/upload-artifacts@v3
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos
 
